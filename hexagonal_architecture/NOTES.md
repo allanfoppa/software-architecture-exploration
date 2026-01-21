@@ -7,4 +7,4 @@
 
 ## REFERENCES
 
-(Alistair CockBurn site)[https://alistair.cockburn.us/]
+[Alistair CockBurn site](https://alistair.cockburn.us/)
