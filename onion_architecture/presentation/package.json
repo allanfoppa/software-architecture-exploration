@@ -1,0 +1,14 @@
+{
+  "name": "@onion/presentation",
+  "version": "1.0.0",
+  "description": "Onion Architecture - Presentation layer (Web UI, user-facing components)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "echo 'Development server not configured yet'",
+    "build": "echo 'Build command not configured yet'"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "private": true
+}
