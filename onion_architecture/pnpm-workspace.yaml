@@ -1,5 +1,5 @@
 packages:
-  - 'core'
-  - 'infrastructure'
-  - 'presentation'
-  - 'tests'
+  - 'core/domain'
+  - 'core/application'
+  - 'infrastructure/*'
+  - 'presentation/*'

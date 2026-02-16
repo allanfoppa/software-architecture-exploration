@@ -81,8 +81,6 @@ See [NOTES.md](./NOTES.md) for detailed architecture documentation.
 │   ├── api/                     # NestJS API application
 │   │   └── src/
 │   │       ├── infrastructure/  # Repositories, HTTP layer
-│   │       ├── app.module.ts
-│   │       └── main.ts
 │   └── web/                     # Web frontend
 └── NOTES.md                     # Architecture documentation
 ```

@@ -56,11 +56,11 @@ pnpm --filter @onion/core add <package-name>
 pnpm --filter @onion/core add <package-name> --save-dev
 ```
 
-Add to `infrastructure`:
+Add to `infrastructure/http`:
 
 ```bash
-pnpm --filter @onion/infrastructure add <package-name>
-pnpm --filter @onion/infrastructure add <package-name> --save-dev
+pnpm --filter @onion/http add <package-name>
+pnpm --filter @onion/http add <package-name> --save-dev
 ```
 
 Add to `presentation`:
@@ -123,3 +123,9 @@ Reference another workspace package using the `workspace:` protocol in `package.
 ```
 
 This ensures pnpm automatically links local packages instead of fetching from npm.
+
+## Notes
+
+It's difficult to configure the project so that the main files and subdirectories are well synchronised. This creates a complex environment.
+
+This could be a significant challenging for an inexperienced team.

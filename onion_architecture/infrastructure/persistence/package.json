@@ -1,0 +1,15 @@
+{
+  "name": "@onion/infrastructure-persistence",
+  "version": "1.0.0",
+  "description": "Onion Architecture - Infrastructure persistence layer",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@onion/core-domain": "workspace:*"
+  },
+  "private": true
+}

@@ -8,6 +8,6 @@ export class CreateUserResponseDto {
     this.id = id;
     this.name = name;
     this.email = email;
-    this.message = "User created successfully";
+    this.message = 'User created successfully';
   }
 }

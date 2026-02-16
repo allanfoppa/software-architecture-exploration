@@ -1,0 +1,15 @@
+{
+  "name": "@onion/core-application",
+  "version": "1.0.0",
+  "description": "Onion Architecture - Core application logic (Framework agnostic)",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@onion/core-domain": "workspace:*"
+  },
+  "private": true
+}
